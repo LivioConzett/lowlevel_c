@@ -42,6 +42,7 @@ int main(int argc, char *argv[]) {
     if(filepath == NULL){
         printf("Filepath is a required argument!\n");
         print_usage(argv);
+        return 0;
     }
 
     printf("Newfile: %d\n", newfile);

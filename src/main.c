@@ -3,8 +3,18 @@
 
 // int main(){
 
-//     kv_t* table = kv_init(3);
+//     kv_t* table = kv_init(1024);
 //     printf("%p\n", table);
+
+//     kv_put(table, "hehe", "haha");
+//     kv_put(table, "hehe", "hoho");
+//     kv_put(table, "lala", "lolo");
+
+//     for(int i = 0; i < table->capacity; i++){
+//         if(table->entries[i].key){
+//             printf("[%d] %s : %s\n", i, table->entries[i].key, table->entries[i].value);
+//         }
+//     }
 
 
 //     return 0;

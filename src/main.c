@@ -1,14 +1,14 @@
-#include <stdio.h>
-#include "kv.h"
+// #include <stdio.h>
+// #include "kv.h"
 
 // int main(){
 
-//     kv_t* table = kv_init(1024);
+//     kv_t* table = kv_init(3);
 //     printf("%p\n", table);
 
-//     kv_put(table, "hehe", "haha");
-//     kv_put(table, "hehe", "hoho");
-//     kv_put(table, "lala", "lolo");
+//     printf("%d\n",kv_put(table, "hehe", "haha"));
+//     printf("%d\n",kv_put(table, "hehe", "hoho"));
+//     printf("%d\n",kv_put(table, "lala", "lolo"));
 
 //     for(int i = 0; i < table->capacity; i++){
 //         if(table->entries[i].key){

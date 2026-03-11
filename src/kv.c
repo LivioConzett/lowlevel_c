@@ -48,7 +48,7 @@ int kv_put(kv_t* db, char* key, char* value){
             if(!newvalue) return -1;
 
             entry->value = newvalue;
-            return real_index;
+            return 0;
         }
 
         // land on slot that is "empty"
@@ -66,7 +66,7 @@ int kv_put(kv_t* db, char* key, char* value){
             entry->value = newvalue;
 
             db->count++;
-            return real_index;
+            return 0;
         }
     }
 

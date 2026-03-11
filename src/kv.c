@@ -20,3 +20,7 @@ kv_t* kv_init(size_t capacity){
 
     return table;
 }
+
+void kv_free(kv_t* db){
+    free(db);
+}

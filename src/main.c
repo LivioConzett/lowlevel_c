@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "kv.h"
 
-int main(int argc, char* argv[]){
+int main(){
 
     kv_t* table = kv_init(3);
     printf("%p\n", table);
